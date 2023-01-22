@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Новости</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="images/logo.png" alt=""></a>
+            <div class="nav-link" id="navLinks">
+
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+					<li><a href="news.html">Новости</a></li>
+                    <li><a href="about.html">О Школе</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h1>Новости</h1>
+    </section>
+	
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Рассылка Новостей!</h1>
+                <p>Нажмите на кнопку ниже, чтобы подписаться на рассылку новостей Нашей Школы в telegram'е</p>
+                <a href="https://t.me/+gYjI_z23AGI1ZWQy" class="hero-btn red-btn">Получить</a>
+            </div>
+            <div class="about-col">
+                <img src="telegram.jpeg" alt="">
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <h4></h4>
+        <p></p>
+        <div class="icon">
+			<a href="https://www.instagram.com/shkola_4_talgar/"><i class='bx bxl-instagram'></i></a>
+			<a href=# onclick="alert('Пока что в разработке)"><i class='bx bxl-whatsapp'></i></a>
+			<a href="https://t.me/+gYjI_z23AGI1ZWQy"><i class='bx bxl-telegram'></i></a>
+        </div>
+        <p>Сделано Учениками 10"Б" Класса.</p>
+
+    </section>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>

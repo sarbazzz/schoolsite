@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- fontawesome -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"> -->
+    <!-- bootstrap5 -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
+
+
+
+    <title>О Школе</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="images/logo.png" alt=""></a>
+            <div class="nav-link" id="navLinks">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" onclick="hideMenu()" viewBox="0 0 16 16">
+                    <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                  </svg>
+                
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="news.html">Новости</a></li>
+					<li><a href="about.html">О Школе</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-list" onclick="showMenu()" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+        </nav>
+
+        <h1>О Школе</h1>
+    </section>
+	
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>О Нашей Школе</h1>
+                <p>Общеобразовательная Средняя Школа - Лицей №4 г. Талгар является одной из самых старых школ города. Школа была построена в 1930 году, во время войны служила артиллерийским училищем и медицинским центром. В школе на данный момент учится больше 500 детей. Помимо 24 кабинетов в школе имеется медпункт, библиотека, столовая, туалет внутри здания, спортзал, а также задний двор с большим садом для проведения физкультуры в теплое время года.</p>
+                <a href="contacts.html" class="hero-btn red-btn">Контакты</a>
+            </div>
+            <div class="about-col">
+                <img src="banner.jpeg" alt="">
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <h4></h4>
+        <p></p>
+        <div class="icon">
+            <a href="https://www.instagram.com/shkola_4_talgar/"><i class='bx bxl-instagram'></i></a>
+			<a href=# onclick="t()"><i class='bx bxl-whatsapp'></i></a>
+			<a href="https://t.me/+gYjI_z23AGI1ZWQy"><i class='bx bxl-telegram'></i></a>
+        </div>
+        <p>Сделано Учениками 10"Б" Класса.</p>
+
+    </section>
+
+    <script>
+		
+		function t() {
+			alert("Пока что в разработке...");
+		}
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>

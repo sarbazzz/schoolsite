@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- fontawesome -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"> -->
+    <!-- bootstrap5 -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
+
+
+
+    <title>Контакты</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="images/logo.png" alt=""></a>
+            <div class="nav-link" id="navLinks">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" onclick="hideMenu()" viewBox="0 0 16 16">
+                    <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+                  </svg>
+                
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="news.html">Новости</a></li>
+                    <li><a href="about.html">О Школе</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-list" onclick="showMenu()" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+        </nav>
+
+        <h1>Контакты</h1>
+    </section>
+    <section class="location">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5804.689624950536!2d77.24871335113636!3d43.3279731810316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38839eec02d7c957%3A0x283503e138508d98!2z0KjQutC-0LvQsC3Qu9C40YbQtdC5IOKEliA0!5e0!3m2!1sru!2skz!4v1651225055559!5m2!1sru!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	
+	</section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class='bx bxs-home'></i>
+                    <span>
+                        <h5>Ул. Шевцова 8а</h5>
+                        <p>г. Талгар, Алматинская область, Казахстан</p>
+                    </span>
+                </div>
+                <div>
+                    <i class='bx bxs-phone'></i>
+                    <span>
+                        <h5>88005553535</h5>
+                        <p>с 10 до 18, Пн-Пт</p>
+                    </span>
+                </div>
+                <div>
+                    <i class='bx bxs-envelope'></i>
+                    <span>
+                        <h5>school4talgar@gmail.com</h5>
+						<p>Электронная почта нашей школы </p>
+                    </span>
+                </div>
+            </div>
+
+            <div class="contact-col">
+                <form action="form.php" method="post">
+                    <input type="text" name="name" placeholder="Ваше Имя" required>
+                    <input type="email" name="email" placeholder="Ваш Электронный Адрес" required>
+                    <textarea rows="8" name="message" placeholder="Ваше Сообщение"></textarea>
+                    <button class="hero-btn red-btn"> Отправить Письмо</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+   
+    
+
+    
+
+    <!-- footer -->
+    <section class="footer">
+        <h4></h4>
+        <p></p>
+        <div class="icon">
+			<a href="https://www.instagram.com/shkola_4_talgar/"><i class='bx bxl-instagram'></i></a>
+			<a href=# onclick="t()"><i class='bx bxl-whatsapp'></i></a>
+			<a href="https://t.me/+gYjI_z23AGI1ZWQy"><i class='bx bxl-telegram'></i></a>
+        </div>
+        <p>Сделано Учениками 10"Б" Класса.</p>
+
+    </section>
+
+    <script>
+		
+		function t() {
+			alert("Пока что в разработке...");
+		}
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+		
+    </script>
+
+</body>
+</html>
